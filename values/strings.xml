@@ -54,12 +54,14 @@
 
     <string name="toast_msg_error_reading_json">Error reading kernel releases, JSON exception</string>
     <string name="toast_msg_no_internet_connection">No Internet Connection Available</string>
-    <string name="toast_download_cancelled">Download cancelled</string>
-    <string name="toast_failed_deleting_incomplete_download">Failed to delete incomplete download</string>
-    <string name="toast_invalid_md5">Md5 is incorrect -- download deleted</string>
-    <string name="toast_valid_md5">Md5 match, download successful</string>
-    <string name="toast_message_invalid_url">Invalid URL: %s</string>
-    <string name="toast_msg_no_support">Your device \"%s\" is not supported</string>
+    <string name="toast_msg_download_cancelled">Download cancelled</string>
+    <string name="toast_msg_failed_deleting_incomplete_download">Failed to delete incomplete download</string>
+    <string name="toast_msg_invalid_md5">Md5 is incorrect -- download deleted</string>
+    <string name="toast_msg_valid_md5">Md5 match, download successful</string>
+    <string name="toast_msg_invalid_url">Invalid URL: %s</string>
+    <string name="toast_msg_no_kernel_support">This Kernel is not supported, application finished!</string>
+    <string name="toast_msg_no_support">Your device \"%s\" is not supported, application finished!</string>
+    <string name="toast_msg_directory_creation_failed">Failed to create download directory</string>
 
     <string name="set_on_boot">Set On Boot</string>
     <string name="headphone_gain_left">Headphone Gain (Left): %d</string>
