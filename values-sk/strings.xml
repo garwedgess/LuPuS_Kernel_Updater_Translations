@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">LuPuS Kernel Updater</string>
+
+    <string name="title_activity_kernel_info">Kernel Info Activity</string>
+    <string name="action_settings">Nastavenia</string>
+    <string name="action_donate">Donate</string>
+    <string name="action_reboot_recovery">Reštartovať do Recovery</string>
+
+    <string name="downloading_name">Sťahuje sa %s</string>
+    <string name="download_complete">Sťahovanie dokončené</string>
+    <string name="download_failed">Sťahovanie neúspešné</string>
+
+    <string name="alert_title_warning">Upozornenie</string>
+    <string name="alert_title_autoflash">Flash Kernel</string>
+    <string name="alert_title_reboot_recovery">Reštartovať do Recovery</string>
+    <string name="alert_msg_reboot_recovery">Reštartovať do Recovery teraz?</string>
+    <string name="alert_msg_no_permission">Aplikácii nebolo udelené oprávnenie zapisovať do úložiska, preto nemôže správne fungovať. Zvážte prosím udelenie príslušných oprávnení tejto aplikácii.</string>
+    <string name="alert_msg_no_root">LuPuS Kernel Updater nemá root oprávnenia. Môže to byť spôsobené neudelením práv SU, alebo zlým rootnutím zariadenia. Root je potrebný pre automatické flashnutie alebo reštartovaní do recovery. Ak však nechcete používať tieto funkcie, nemusíte tieto oprávnenia tejto aplikácii udelovať.</string>
+    <string name="alert_msg_no_busybox">\n\nZistili sme, že nemáte nainštalovany busybox...</string>
+    <string name="alert_msg_autoflash">Chcete reštartovať do recovery a automaticky flashnúť kernel: %s ?</string>
+    <string name="alert_msg_donate">Donations are not required however they are greatly appreciated. Donations can be made through PayPal by clicking the donate button below.</string>
+
+    <string name="btn_yes">Áno</string>
+    <string name="btn_no">Nie</string>
+    <string name="btn_cancel">Storno</string>
+    <string name="btn_changelog">Changelog</string>
+    <string name="btn_download">Stiahnuť</string>
+    <string name="btn_ok">Ok</string>
+
+    <string name="error_no_internet">Žiadne pripojenie na internet</string>
+    <string name="kernel_version">Verzia - %s</string>
+    <string name="view_github_text">Zobraz %s zdrojový kód GitHub.</string>
+    <string name="view_xda_text">Zobraz %s na XDA.</string>
+    <string name="title_changelog">Changelog</string>
+    <string name="title_information">Informácie</string>
+    <string name="pd_message_checking_md5">Skontroluj MD5 stiahnutého súboru</string>
+    <string name="content_desc_github_logo">Github Logo</string>
+    <string name="content_desc_xda_logo">XDA Logo</string>
+
+    <string name="new_download_available">Nová verzia na stiahnutie - %s</string>
+    <string name="new_update">nová</string>
+    <string name="old_version">stará</string>
+    <string name="installed_version">nainštalované</string>
+
+    <!-- Settings -->
+    <string name="pref_category_title_appearance">Vzhľad</string>
+    <string name="pref_category_title_general">Hlavné</string>
+    <string name="pref_title_update_interval">Interval obnovy</string>
+    <string name="pref_title_dark_theme">Tmavá téma</string>
+    <string name="pref_title_disable_update_check">Zakázať kontrolu updatov</string>
+    <string name="pref_summary_interval">Kontrolovať updaty každých 0% hodín.</string>
+    <string name="pref_summary_disable_update_check">Zakázať automatickú kontrolu updatov, updaty sa budú kontrolovať pri spustení aplikácie.</string>
+    <string name="pref_summary_dark_theme">Zmeniť UI na tmavú material tému. (Aplikácia sa reštartuje)</string>
+
+    <string name="toast_msg_error_reading_json">Chyba pri čítaní vydaní kernelu, výnimka JSON</string>
+    <string name="toast_msg_no_internet_connection">Žiadne pripojenie na internet</string>
+    <string name="toast_msg_download_cancelled">Sťahovanie stornované</string>
+    <string name="toast_msg_failed_deleting_incomplete_download">Zlyhalo odstránenie nedokončeného sťahovania</string>
+    <string name="toast_msg_invalid_md5">MD5 je chybné -- stiahnutý súbor vymazaný</string>
+    <string name="toast_msg_valid_md5">MD5 v poriadku, sťahovanie úspešné</string>
+    <string name="toast_msg_invalid_url">Chybná URL: %s</string>
+    <string name="toast_msg_no_support">Vaše zariadenie \"%s\" nie je podporované</string>
+	<string name="toast_msg_no_kernel_support">Tento kernel nie je podporovaný, aplikácia skončila!</string>
+    <string name="toast_msg_directory_creation_failed">Chyba pri vytváraní priečinku sťahovania</string>
+
+    <string name="set_on_boot">Nastaviť pri bootovaní</string>
+    <string name="headphone_gain_left">Zvýšenie hlasitosti slúchadiel (Ľavé): %d</string>
+    <string name="headphone_gain_right">Zvýšenie hlasitosti slúchadiel (Pravé): %d</string>
+    <string name="link_headphone_gains">Spojiť zvýšenie hlasitosti slúchadiel</string>
+    <string name="title_sound_control">KOntrola zvuku</string>
+    <string name="title_digital_output_gain_controls">Kontrola zvýšenia hlasitosti digitálneho výstupu</string>
+</resources>
