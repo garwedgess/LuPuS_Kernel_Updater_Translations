@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">LuPuS Çekirdek Güncelleyici</string>
+
+    <string name="title_activity_kernel_info">Çekirdek Bilgisi Etkinliği</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="action_donate">Bağış</string>
+    <string name="action_reboot_recovery">Kurtarma Modunda Başlat</string>
+
+    <string name="downloading_name">İndiriliyor %s</string>
+    <string name="download_complete">İndirme tamamlandı</string>
+    <string name="download_failed">İndirme başarısız</string>
+
+    <string name="alert_title_warning">Uyarı</string>
+    <string name="alert_title_autoflash">Çekirdeği yükle</string>
+    <string name="alert_title_reboot_recovery">Kurtarma Modunda Başlat</string>
+    <string name="alert_msg_reboot_recovery">Şimdi Kurtarma Modunda Başlatlatılsın mı?</string>
+    <string name="alert_msg_no_permission">Bu uygulama depolama amacıyla yazmaya izin vermez. Bu sebeple düzgün çalışmayabilir. İzin oluştuştururken lütfen birkez daha düşünün.</string>
+    <string name="alert_message_no_root">LuPuS Çekirdek Güncelleyici kök erişim izni sağlayamadı, belki super user uygulamasından yetki verilmemiş veya cihaz rootlanmamış olabilir. Çekirdeğin otomatik olarak yüklenebilmesi için cihazın kurtarma modunda başlatılması gereklidir. Eğer elle kurulum yapmak istiyorsanız bu işleme gerek kalmaz.</string>
+    <string name="alert_message_no_busybox">\n\nWe cihazınızda busybox uygulamasının yüklü olmadığı tespit edildi...</string>
+    <string name="alert_message_autoflash">Cihazın kurtarma modunda başlatılıp çekirdeğin otomatik olarak kurulmasını istiyor musunuz: %s ?</string>
+    <string name="alert_message_donate">Bağış yapılmasını takdir ediyoruz fakat bağış yapmanız şart değildir. Eğer bağış yapmak istiyorsanız "Bağış" tuşu ile PayPal üzerinden bağış yapabilirsiniz.</string>
+
+    <string name="btn_yes">Evet</string>
+    <string name="btn_no">Hayır</string>
+    <string name="btn_cancel">İptal</string>
+    <string name="btn_changelog">Değişiklikler</string>
+    <string name="btn_download">İndir</string>
+    <string name="btn_ok">Tamam</string>
+
+    <string name="error_no_internet">İnternet Bağlantısı Kesildi</string>
+    <string name="kernel_version">Versiyon - %s</string>
+    <string name="view_github_text">Gör %s\'s GitHub üzerinden kaynak kodunu.</string>
+    <string name="view_xda_text">Gör %s\'s XDA konusunu.</string>
+    <string name="title_changelog">Değişiklikler</string>
+    <string name="title_information">Bilgilendirme</string>
+    <string name="pd_message_checking_md5">İndirmelerin MD5 kodunu kontrol et</string>
+    <string name="content_desc_github_logo">Github Logo</string>
+    <string name="content_desc_xda_logo">XDA Logo</string>
+
+    <string name="new_download_available">Yeni güncelleme bulundu - %s</string>
+    <string name="new_update">yeni</string>
+    <string name="old_version">eski</string>
+    <string name="installed_version">yüklendi</string>
+
+    <!-- Settings -->
+    <string name="pref_category_title_appearance">Görünüm</string>
+    <string name="pref_category_title_general">Genel</string>
+    <string name="pref_title_update_interval">Güncelleme Sıklığı</string>
+    <string name="pref_title_dark_theme">Karanlık Tema</string>
+    <string name="pref_title_disable_update_check">Güncelleme kontrolünü devredışı bırak</string>
+    <string name="pref_summary_interval">Güncellemeleri %s saatte bir kontrol et.</string>
+    <string name="pref_summary_disable_update_check">Uygulamanın güncellemele kontrolü devredışı bırakıldığında, güncellemeler sadece uygulama başlatıldığında denetlenecektir.</string>
+    <string name="pref_summary_dark_theme">Arayüzü karanlık metaryel olarak değiştir. (Yeniden başlatma gerektirir.)</string>
+
+    <string name="toast_msg_error_reading_json">Çekirdek bilgileri okunamadı</string>
+    <string name="toast_msg_no_internet_connection">İnternet bağlantısı bulunamadı</string>
+    <string name="toast_msg_download_cancelled">İndirme iptal edildi</string>
+    <string name="toast_msg_failed_deleting_incomplete_download">Başarısız indirme silindi</string>
+    <string name="toast_msg_invalid_md5">Md5 kodu geçersiz -- indirme silindi</string>
+    <string name="toast_msg_valid_md5">Md5 doğru, indirme tamamlandı</string>
+    <string name="toast_msg_invalid_url">Geçersiz URL: %s</string>
+    <string name="toast_msg_no_kernel_support">Çekirdek desteklenmemektedir, Uygulama kapatılıyor!</string>
+    <string name="toast_msg_no_support">Your device \"%s\" desteklenmemektedir, Uygulama kapatılıyor!</string>
+    <string name="toast_msg_directory_creation_failed">İndirme birimi oluşturulamadı</string>
+
+    <string name="set_on_boot">Açılışta Ayarla</string>
+    <string name="headphone_gain_left">Kulaklık Gücü (Sol): %d</string>
+    <string name="headphone_gain_right">Kulaklık Gücü (Sağ): %d</string>
+    <string name="link_headphone_gains">Kulaklık Güçlerini Bağla</string>
+    <string name="title_sound_control">Ses Kontrolü</string>
+    <string name="title_digital_output_gain_controls">Dijital Çıkış Güç Kontrolleri</string>
+</resources>
