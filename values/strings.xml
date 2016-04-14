@@ -1,32 +1,42 @@
 <resources>
     <string name="app_name">LuPuS Kernel Updater</string>
 
+    <!-- Activity titles -->
     <string name="title_activity_kernel_info">Kernel Info Activity</string>
+    <string name="title_sound_control">Sound Control</string>
+    <string name="title_selinux_mode_changer">SELinux Changer</string>
+
+    <!-- common actions -->
     <string name="action_settings">Settings</string>
     <string name="action_donate">Donate</string>
     <string name="action_reboot_recovery">Reboot Recovery</string>
+    <string name="action_set_on_boot">Set On Boot</string>
 
-    <string name="downloading_name">Downloading %s</string>
-    <string name="download_complete">Download complete</string>
-    <string name="download_failed">Download failed</string>
-
+    <!-- AlertDialogs -->
     <string name="alert_title_warning">Warning</string>
     <string name="alert_title_autoflash">Flash Kernel</string>
     <string name="alert_title_reboot_recovery">Reboot Recovery</string>
+    <string name="alert_title_choose_kernel">Choose LuPuS Kernels to show, you can change this option from settings at any time.</string>
     <string name="alert_msg_reboot_recovery">Reboot to recovery now?</string>
     <string name="alert_msg_no_permission">The app was not allowed to write to your storage. Hence, it cannot function properly. Please consider granting it this permission</string>
-    <string name="alert_message_no_root">LuPuS Kernel Updater cannot gain root access, this maybe due to you not granting su permissions to the application or your device may not be rooted. Root is needed for auto flashing kernels or rebooting into recovery. If you do not wish to use these features then you do not need to grant root.</string>
-    <string name="alert_message_no_busybox">\n\nWe have detected that your device does not have busybox installed...</string>
-    <string name="alert_message_autoflash">Do you wish to reboot to recovery now and auto flash kernel: %s ?</string>
-    <string name="alert_message_donate">Donations are not required however they are greatly appreciated. Donations can be made through PayPal by clicking the donate button below.</string>
+    <string name="alert_msg_no_root">LuPuS Kernel Updater cannot gain root access, this maybe due to you not granting su permissions to the application or your device may not be rooted. Root is needed for auto flashing kernels or rebooting into recovery. If you do not wish to use these features then you do not need to grant root.</string>
+    <string name="alert_msg_no_busybox">\n\nWe have detected that your device does not have busybox installed...</string>
+    <string name="alert_msg_autoflash">Do you wish to reboot to recovery now and auto flash kernel: %s ?</string>
+    <string name="alert_msg_donate">Donations are not required, however they are greatly appreciated. Donations can be made through PayPal by clicking the donate button below.</string>
+    <string name="alert_msg_downloading_name">Downloading %s</string>
+    <string name="alert_msg_download_complete">Download complete</string>
+    <string name="alert_msg_download_failed">Download failed</string>
 
+    <!-- Buttons -->
     <string name="btn_yes">Yes</string>
     <string name="btn_no">No</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_changelog">Changelog</string>
     <string name="btn_download">Download</string>
     <string name="btn_ok">Ok</string>
+    <string name="btn_selinux">Change to %s mode</string>
 
+    <!-- Kernel Info Activity -->
     <string name="error_no_internet">No Internet Connection</string>
     <string name="kernel_version">Version - %s</string>
     <string name="view_github_text">View %s\'s source code on GitHub.</string>
@@ -37,36 +47,48 @@
     <string name="content_desc_github_logo">Github Logo</string>
     <string name="content_desc_xda_logo">XDA Logo</string>
 
+    <!-- Notification Message - OTA -->
     <string name="new_download_available">New download available - %s</string>
+
+    <!-- MainActivity, kernel versions -->
     <string name="new_update">new</string>
     <string name="old_version">old</string>
     <string name="installed_version">installed</string>
 
-    <!-- Settings -->
+    <!-- Settings - pref titles & summaries -->
     <string name="pref_category_title_appearance">Appearance</string>
     <string name="pref_category_title_general">General</string>
     <string name="pref_title_update_interval">Update Interval</string>
     <string name="pref_title_dark_theme">Dark Theme</string>
     <string name="pref_title_disable_update_check">Disable Update Check</string>
+    <string name="pref_title_stock">Show Stock Kernels</string>
+    <string name="pref_title_cm">Show CM Kernels</string>
     <string name="pref_summary_interval">Check for updates every %s hours.</string>
     <string name="pref_summary_disable_update_check">Disable the application checking for kernel updates, instead updates will be checked when application is opened.</string>
     <string name="pref_summary_dark_theme">Change the UI to a dark material theme. (Application will restart)</string>
+    <string name="pref_summary_show_stock">When checked only STOCK LG G4 kernels will be shown.</string>
+    <string name="pref_summary_show_cm">When checked only CM LG G4 kernels will be shown.</string>
 
-    <string name="toast_msg_error_reading_json">Error reading kernel releases, JSON exception</string>
-    <string name="toast_msg_no_internet_connection">No Internet Connection Available</string>
-    <string name="toast_msg_download_cancelled">Download cancelled</string>
-    <string name="toast_msg_failed_deleting_incomplete_download">Failed to delete incomplete download</string>
-    <string name="toast_msg_invalid_md5">Md5 is incorrect -- download deleted</string>
-    <string name="toast_msg_valid_md5">Md5 match, download successful</string>
+    <!-- Toast messages -->
+    <string name="toast_msg_error_reading_json">Error reading kernel releases, JSON exception!</string>
+    <string name="toast_msg_no_internet_connection">No Internet Connection Available!</string>
+    <string name="toast_msg_download_cancelled">Download cancelled!</string>
+    <string name="toast_msg_failed_deleting_incomplete_download">Failed to delete incomplete download!</string>
+    <string name="toast_msg_invalid_md5">Md5 is incorrect -- download deleted!</string>
+    <string name="toast_msg_valid_md5">Md5 match, download successful.</string>
     <string name="toast_msg_invalid_url">Invalid URL: %s</string>
     <string name="toast_msg_no_kernel_support">This Kernel is not supported, application finished!</string>
     <string name="toast_msg_no_support">Your device \"%s\" is not supported, application finished!</string>
-    <string name="toast_msg_directory_creation_failed">Failed to create download directory</string>
+    <string name="toast_msg_directory_creation_failed">Failed to create download directory.</string>
+    <string name="toast_msg_selinux_changer_no_support">Could not change SELinux mode, make sure your kernel supports it.</string>
 
-    <string name="set_on_boot">Set On Boot</string>
+    <!-- Sound Control -->
     <string name="headphone_gain_left">Headphone Gain (Left): %d</string>
     <string name="headphone_gain_right">Headphone Gain (Right): %d</string>
     <string name="link_headphone_gains">Link Headphone Gains</string>
-    <string name="title_sound_control">Sound Control</string>
     <string name="title_digital_output_gain_controls">Digital Output Gain Controls</string>
+
+    <!-- Kernel Chooser STOCK/CM -->
+    <string name="array_item_stock_kernel">Stock Kernels</string>
+    <string name="array_item_cm_kernel">CM Kernels</string>
 </resources>
