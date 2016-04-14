@@ -80,7 +80,6 @@
     <string name="toast_msg_no_kernel_support">This Kernel is not supported, application finished!</string>
     <string name="toast_msg_no_support">Your device \"%s\" is not supported, application finished!</string>
     <string name="toast_msg_directory_creation_failed">Failed to create download directory.</string>
-    <string name="toast_msg_selinux_changer_no_support">Could not change SELinux mode, make sure your kernel supports it.</string>
 
     <!-- Sound Control -->
     <string name="headphone_gain_left">Headphone Gain (Left): %d</string>

@@ -6,9 +6,9 @@
     <string name="action_donate">Donate</string>
     <string name="action_reboot_recovery">Restartovat do Recovery</string>
 
-    <string name="downloading_name">Stahuje se %s</string>
-    <string name="download_complete">Stahování dokončeno</string>
-    <string name="download_failed">Stahování neúspěšné</string>
+    <string name="alert_msg_downloading_name">Stahuje se %s</string>
+    <string name="alert_msg_download_complete">Stahování dokončeno</string>
+    <string name="alert_msg_download_failed">Stahování neúspěšné</string>
 
     <string name="alert_title_warning">Upozornění</string>
     <string name="alert_title_autoflash">Flash Kernel</string>
@@ -63,10 +63,19 @@
 	<string name="toast_msg_no_kernel_support">Tenhle kernel není podporován, aplikace skončila!</string>
     <string name="toast_msg_directory_creation_failed">Nepovedlo se vytvořit složku pro stahování</string>
 
-    <string name="set_on_boot">Nastavit při bootování</string>
+    <string name="action_set_on_boot">Nastavit při bootování</string>
     <string name="headphone_gain_left">Zvýšení hlasitosti sluchátek (Levé): %d</string>
     <string name="headphone_gain_right">Zvýšení hlasitosti sluchátek (Pravé): %d</string>
     <string name="link_headphone_gains">Spojit zvýšení hlasitosti sluchátek</string>
     <string name="title_sound_control">Kontrola zvuku</string>
     <string name="title_digital_output_gain_controls">Kontrola zvýšení hlasitosti digitálního výstupu</string>
+    <string name="alert_title_choose_kernel">Vyberte si LuPuS jádrech pro zobrazení , můžete tuto možnost v nastavení kdykoliv změnit .</string>
+    <string name="array_item_cm_kernel">CM Kernel</string>
+    <string name="array_item_stock_kernel">Stock Kernel</string>
+    <string name="btn_selinux"> změna režimu %s</string>
+    <string name="pref_summary_show_cm"> Kdy pouze kontroluje budou zobrazeny CM LG G4 jádra.</string>
+    <string name="pref_summary_show_stock"> Kdy pouze kontroluje budou zobrazeny STOCK LG G4 jádra.</string>
+    <string name="pref_title_cm">CM Kernels</string>
+    <string name="pref_title_stock">Stock Kernels</string>
+    <string name="title_selinux_mode_changer">SELinux Changer</string>
 </resources>
